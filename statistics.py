@@ -1,3 +1,11 @@
+"""
+This module provides functions for basic statistical calculations.
+
+These functions are designed to operate on lists of numeric data.
+The variance function computes the population variance and
+the standard deviation function calculates the standard deviation.
+"""
+
 from math import sqrt
 
 
