@@ -1,5 +1,7 @@
 Continuous Integration Demo
 ===========================
+[![Run flake8 and Pylint](https://github.com/pannlnwza/ci-demo/actions/workflows/run-flake8.yml/badge.svg)](https://github.com/pannlnwza/ci-demo/actions/workflows/run-flake8.yml)  [![Run unit tests](https://github.com/pannlnwza/ci-demo/actions/workflows/python-unittest.yml/badge.svg)](https://github.com/pannlnwza/ci-demo/actions/workflows/python-unittest.yml)
+
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 
