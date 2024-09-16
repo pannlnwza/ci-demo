@@ -54,6 +54,6 @@ class StatisticsTest(TestCase):
         self.assertEqual(sqrt(0.5), stdev([0, 0.5, 1, 1.5, 2]))
 
 
-if __name__ == '__main__': # pragma: no cover
+if __name__ == '__main__':
     import unittest
-    unittest.main(verbosity=1) # pragma: no cover
+    unittest.main(verbosity=1)
