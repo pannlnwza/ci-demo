@@ -53,8 +53,3 @@ class StatisticsTest(TestCase):
         self.assertEqual(2.0, stdev([1, 5]))
         # variance([0, 0.5, 1, 1.5, 2.0]) is 0.5
         self.assertEqual(sqrt(0.5), stdev([0, 0.5, 1, 1.5, 2]))
-
-
-if __name__ == '__main__':
-    import unittest
-    unittest.main(verbosity=1)
