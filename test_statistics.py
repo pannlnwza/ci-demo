@@ -28,6 +28,7 @@ class StatisticsTest(TestCase):
             average([])
 
     def test_variance_empty_list(self):
+        """Test that variance raises ValueError on empty list."""
         with self.assertRaises(ValueError):
             variance([])
 
